@@ -1,0 +1,211 @@
+
+/* font-family: 'Lato', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+background: #f6f9f9;
+}
+.head{
+    
+display: flex;
+    
+width: 70%;
+    
+padding: 20px 0px;
+    
+margin: auto;
+    
+margin: space-between;
+    
+justify-content: space-between;
+    
+align-items: center;
+}
+.logo{
+
+}
+.logo img{
+
+}
+nav{
+
+}
+nav ul{
+
+display: flex;
+
+list-style: none;
+}
+nav ul li{
+
+margin-left: 25px;
+}
+nav ul li a{
+
+text-decoration: none;
+
+color: #2d3950;
+
+font-weight: bold;
+}
+
+.banner{
+    background-image: url(../pics/p0.png);
+    min-height: 85vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txt{
+
+width: 33%;
+
+text-align: center;
+}
+.txt h1{
+
+color: #fff;
+
+font-size: 85px;
+
+margin-bottom: 15px;
+
+font-weight: bold;
+}
+.txt span{
+
+display: block;
+
+background: #15a4fa;
+
+height: 2px;
+
+width: 100%;
+}
+.txt p{
+
+color: #fff;
+
+margin: 25px 0 40px 0;
+
+font-weight: 400;
+}
+.txt button{
+    
+border: 1px solid #15a4fa;
+    
+background: transparent;
+    
+color: #fff;
+    
+margin-bottom: 110px;
+    
+border-radius: 3px;
+    
+padding: 10px 20px;
+    
+transition: .4s all ease-in-out;
+    
+cursor: pointer;
+    
+font-weight: 400;
+}
+.txt button:hover{
+    background: #15a4fa;
+    color: #fff;
+}
+.txt i{
+    cursor: pointer;
+color: #fff;
+}
+.txt i:hover{
+    color: black;
+}
+.content{
+
+background: #f6f9f9;
+
+text-align: center;
+
+padding: 50px 0 100px 0;
+}
+.content h1{
+    
+margin-bottom: 20px;
+    
+font-weight: 400;
+    
+color: #2d3950;
+}
+.content p{
+    
+width: 64%;
+    
+font-weight: 400;
+    
+margin: auto;
+    
+color: #999999;
+}
+.links{
+
+}
+.c1{
+
+display: flex;
+
+width: 80%;
+
+margin: auto;
+
+justify-content: space-between;
+
+padding: 80px 0;
+}
+.box{
+
+text-align: center;
+
+}
+.box i{
+
+background: 48baff;
+
+background: #48baff;
+
+
+padding: 20px;
+
+font-size: 40px;
+
+
+}
+.box a{
+    
+color: white;
+}   
+.box h2{
+    
+padding: 20px 0;
+    
+font-weight: 400;
+    
+color: #2d3950;
+}
+.box p{
+    
+font-weight: 400;
+    
+color: #999999;
+}
